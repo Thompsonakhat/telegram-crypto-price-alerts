@@ -1,0 +1,9 @@
+# Changelog
+
+All notable changes to this bot project are recorded here.
+
+## 2026-02-26 23:09:36. UTC
+- Request: Build a Telegram crypto price + alerts bot: - Watchlist: add/remove coins and list watchlist. - Price lookup: /price <symbol> (returns price + 24h change). - Alerts: set above/below alerts per coin; list and remove aler…
+- Summary: Created a new grammY Telegram bot project for crypto price lookup, watchlists, and polling-based alerts with inline-button UX. Added MongoDB persistence (users/watchlists/alerts), a CoinGecko market data service with ca…
+- Files: .env.sample, DOCS.md, README.md, package.json, project.json, src/bot.js, src/commands/alert.js, src/commands/alerts.js, src/commands/help.js, src/commands/loader.js, src/commands/menu.js, src/commands/price.js, src/commands/reset.js, src/commands/start.js (+1…
+
